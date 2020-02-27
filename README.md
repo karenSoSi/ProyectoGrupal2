@@ -29,6 +29,7 @@ Para el desarrollo de este proyecto se utilizo eclipse y las siguientes tecnolog
 
 ```
 Java 8
+JRE System Library
 JUnit 5
 JavaDoc
 ObjectAid UML
@@ -37,6 +38,10 @@ ObjectAid UML
 ## Pruebas Unitarias
 Tener en consideración que las pruebas unitarias se realizaron con JUnit5.
 Se realizaron un TestCase por cada clase que contiene el proyecto, para su mayor orden.
+
+### Consideraciones
+
+Al iniciar el proyecto, verifique si contiene las dos librerias necesarias para correr el proyecto y las pruebas unitarias (JRE System Library / JUnit 5)
 
 ### Integrantes
 
