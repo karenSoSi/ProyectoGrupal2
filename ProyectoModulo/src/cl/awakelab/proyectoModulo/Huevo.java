@@ -2,17 +2,23 @@ package cl.awakelab.proyectoModulo;
 
 public class Huevo {
 
-	
+	//Atributos
 	private int fila;
 	private int columna;
 	private int puntaje;
 	
 	
-	//CONSTRUCTOR
+	//Constructor por defecto
 	public Huevo() {
 		
 	}
 	
+	/*
+	 * Constructor con 3 parametros
+	 * @param fila
+	 * @param columna
+	 * @param puntaje
+	 */
 	public Huevo(int fila, int columna, int puntaje) {
 		super();
 		this.fila = fila;
@@ -21,7 +27,7 @@ public class Huevo {
 	}
 	
 	
-	//GET AND SET
+	//Metodos Get y Set
 	public int getFila() {
 		return fila;
 	}
@@ -41,7 +47,7 @@ public class Huevo {
 		this.puntaje = puntaje;
 	}
 	
-	//toString
+	//Metodos toString
 	@Override
 	public String toString() {
 		return "Huevo [fila=" + fila + ", columna=" + columna + ", puntaje=" + puntaje + "]";

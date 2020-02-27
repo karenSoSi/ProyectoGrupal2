@@ -1,6 +1,10 @@
 package cl.awakelab.proyectoModulo;
 
-
+/*
+ * Clase hija de Carro. Hereda sus atributos
+ * @author: Fernanda - Javiera - Karen - Andrea 
+ * @version: 24/02/2020 
+ */
 
 public class Kromi extends Carro {
 
@@ -8,8 +12,16 @@ public class Kromi extends Carro {
 	private int anioFabricacion;
 	private String marca;
 	
-	
-	//CONSTRUCTOR
+
+	/*
+	 * Constructor con 3 parametros heredados de la clase Carro y 2 parametros propios
+	 * @see Carro
+	 * @param cantidadOcupantes parametro que hereda de la clase padre "Carro"
+	 * @param fechaIngreso parametro que hereda de la clase padre "Carro"
+	 * @param fila @param columna parametro que hereda de la clase padre "Carro"
+	 * @param anioFabricacion nos indica el año de fabricacion del carro
+	 * @param marca nos dice la marca del carro
+	 */
 	public Kromi(int cantidadOcupantes, String fechaIngreso, int fila, int columna, int anioFabricacion, String marca) {
 		super(cantidadOcupantes, fechaIngreso, fila, columna);
 		this.anioFabricacion = anioFabricacion;
@@ -17,7 +29,7 @@ public class Kromi extends Carro {
 	}
 
 
-	//GET AND SET
+	//Metodos Get y Set
 	public int getAnioFabricacion() {
 		return anioFabricacion;
 	}
@@ -37,7 +49,7 @@ public class Kromi extends Carro {
 		this.marca = marca;
 	}
 
-	//toString
+	//Metodo toString
 	@Override
 	public String toString() {
 		return "Kromi [anioFabricacion=" + anioFabricacion + ", marca=" + marca + "]";

@@ -1,5 +1,9 @@
 package cl.awakelab.proyectoModulo;
-
+/*
+ * Clase hija de Carro. Hereda sus atributos
+ * @author: Fernanda - Javiera - Karen - Andrea 
+ * @version: 24/02/2020 
+ */
 public class Caguano extends Carro {
 
 	//ATRIBUTOS
@@ -7,7 +11,15 @@ public class Caguano extends Carro {
 	private String colorConfeti;
 	
 	
-	//CONSTRUCTOR
+	/*
+	 * Constructor con 3 parametros heredados de la clase Carro y 2 propios
+	 * @see Carro
+	 * @param cantidadOcupantes parametro que hereda de la clase padre "Carro"
+	 * @param fechaIngreso parametro que hereda de la clase padre "Carro"
+	 * @param fila @param columna parametro que hereda de la clase padre "Carro"
+	 * @param alcanceTiro alcance que tendra los tiros de confeti
+	 * @param colorConfeti color del confeti
+	 */
 	public Caguano(int cantidadOcupantes, String fechaIngreso, int fila, int columna, int alcanceTiro,
 			String colorConfeti) {
 		super(cantidadOcupantes, fechaIngreso, fila, columna);
@@ -16,7 +28,7 @@ public class Caguano extends Carro {
 	}
 
 
-	//GET AND SET
+	//Metodos Get y Set
 	public int getAlcanceTiro() {
 		return alcanceTiro;
 	}
