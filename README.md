@@ -1,29 +1,47 @@
 # ProyectoGrupal2
 
-Este proyecto da solucion a la evaluacion 2 grupal.
+## Descripción
 
-#Integrante:
-Fernanda Quijada
-Karen Soto
+Este proyecto da solución a la evaluación 2 grupal, donde se planteo un problema llamado  "Consecuencias"
+
+## Problema Planteado
+Desarrollo de una simulación de matriz con 15 filas y 15 columnas, donde se dispondrá de forma aleatoria de:
+3 K (Kromis), 5 C (Caguanos) y 10 T (Trupallas)
+Dentro de esta matriz el programa deberá dar la opción de lanzar Huevo (sobre escribir H en la matriz) en alguna coordenada ingresada. Si en esta coordenada existe alguna K, C o T, se deberá asignar puntos al jugador.
+
+
+## Solución
+
+Para resolver el problema anteriormente planteado, se desarrollo un Java Project que contiene la matriz y sus diferentes consideraciones del problema planteado
+
+### Contenido
+
+```
+Java Proyect
+Pruebas unitarias
+UML Clases
+JavaDoc
+```
+
+### Desarrollo
+
+Para el desarrollo de este proyecto se utilizo eclipse y las siguientes tecnologías
+
+```
+Java 8
+JUnit 5
+JavaDoc
+ObjectAid UML
+```
+
+## Pruebas Unitarias
+Tener en consideración que las pruebas unitarias se realizaron con JUnit5.
+Se realizaron un TestCase por cada clase que contiene el proyecto, para su mayor orden.
+
+### Integrantes
+
+```
 Javiera Soto
+Karen Soto
 Andrea Rubilar
-
-#Ejecucion
-
-Este proyecto esta hecho con el IDE eclipse, utilizando el lenguaje Java
-
-#Ejacucion Pruebas
-
-Las pruebas unitarias se realizaron con JUnit 5 y se realizaron un TestCase por Clase.
-
-#Problema planteado
-
-Se necesitaba realizar una simulacion de un tablero 15x15, donde se desplegaron diferentes Carros (Kromis, Caguanos y Trupallas).
-En este tablero se pretende lanzar Huevo que sobre escriban los diferentes carros recibiendo un puntaje si alcanza algun carro.
-
-#Solucion
-Para lo anteriormente descrito, se creo un menu donde despliega un tablero con sus diferentes carros, y da la opcion de lanzar huevo a esta matriz,
-señalandole el puntaje.
-
-
-
+Fernanda Quijada
