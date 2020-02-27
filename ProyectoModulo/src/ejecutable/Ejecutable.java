@@ -41,7 +41,7 @@ public class Ejecutable {
 				salida= true;
 				break;
 			default:
-				escribir("Opción no válida\nvuelva a intentarlo"
+				escribir("OpciÃ³n no vÃ¡lida\nvuelva a intentarlo"
 						+ " o presione \"3\" para salir...");
 				break;
 			}
@@ -49,7 +49,7 @@ public class Ejecutable {
 	}
 
 	/*
-	 * Valida si lo que se ingresa dentro del rango 1-15 y sí se ingresa solo numeros con Try/catch
+	 * Valida si lo que se ingresa dentro del rango 1-15 y sÃ­ se ingresa solo numeros con Try/catch
 	 * devuelve un True si se lanzo el huevo y False si se ingreso una letra
 	 * @see Tablero
 	 * @param tablerito
@@ -71,7 +71,7 @@ public class Ejecutable {
 				}
 			} while(columna<1 || columna >15);			
 		} catch (Exception e) {
-			System.out.println("Debe ingresar un NUMERO"+e.getMessage());
+			System.out.println("Debe ingresar un NUMERO");
 			return false;
 		}
 		tablerito.lanzarHuevo(fila, columna);
@@ -87,12 +87,12 @@ public class Ejecutable {
 	public static int menuOpciones() {
 		try {
 			escribir("");
-			escribir("Menú del juego");
+			escribir("MenÃº del juego");
 			escribir("");
 			escribir(" 1-. Realizar lanzamientos \n 2-. Mostrar tablero \n"
 					+ " 3-. Salir del juego");
 			escribir("");
-			return pideNumero("Elige una opción: ");
+			return pideNumero("Elige una opciÃ³n: ");
 		} catch (Exception e) {
 			return 0;
 		}
